@@ -102,6 +102,8 @@ h2 {
     border: none;
 }
 
+
+
 /* Footer / contact */
 
 #contact {
@@ -138,6 +140,35 @@ h2 {
     background-color: transparent;
 }
 
+/*Events section*/
+
+#events .table-dark * {
+    background-color: transparent;
+    color: black;
+}
+
+
+#table .sub-heading-color {
+    display: none;
+}
+
+#discount {
+    text-align: center;
+    align-self: center;
+}
+
+
+
+#discount * {
+    border-radius: 0%;
+    font-size: 90%;
+}
+
+#booknow {
+    margin-top: 20px;
+    text-align: center;
+}
+
 /* grid visualisation CSS for testing */
 
 /* .container,
@@ -158,6 +189,9 @@ h2 {
     #services .card-body {
         min-height: 191px;
     }
+    #discount .custom-button-filled {
+        min-width:75%;
+    }
 }
 
 /* Large devices (small laptops, 992px and up) */
@@ -173,6 +207,9 @@ h2 {
     /* make all service cards the same height for consistency */
     #services .card-body {
         min-height: 220px;
+    }
+    #events > h2 {
+        justify-content: center;
     }
 }
 
