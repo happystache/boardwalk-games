@@ -102,6 +102,9 @@ h2 {
     border: none;
 }
 
+#form-head {
+    display:none;
+}
 
 
 /* Footer / contact */
@@ -157,8 +160,6 @@ h2 {
     align-self: center;
 }
 
-
-
 #discount * {
     border-radius: 0%;
     font-size: 90%;
@@ -172,6 +173,14 @@ h2 {
 #table tr:hover td {
     background: var(--highlight-color-light);
     cursor: pointer;
+  }
+
+#submit2 {
+   
+    text-align: right;
+    margin-right:25px;
+   
+    
   }
 
 /* grid visualisation CSS for testing */
