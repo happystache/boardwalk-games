@@ -190,8 +190,13 @@ h2 {
    
     text-align: right;
     margin-right:25px;
+    margin-bottom: 20px;
    
     
+  }
+
+  #booking-form .custom-button-filled {
+    margin-bottom: 20% ;
   }
 
 /* Media queries */
